@@ -1,0 +1,15 @@
+@import 'settings';
+@import 'mixins';
+@import 'functions';
+
+
+.#{$rowlow-layer-group-namespace}layer-group{
+	position: relative;
+	.#{$rowlow-layer-group-namespace}layer{
+		position: 	absolute;
+		top: 		0;
+		left: 		0;
+		right: 		0;
+		bottom: 	0;
+	}
+}
